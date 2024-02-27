@@ -61,7 +61,7 @@ export default function Home() {
               Hello, my name is Karli Christensen, I am a front-end developer
               from <span className="glitch">Copenhagen, Denmark.</span> I build
               and design things. Occasionally those things <span className="glitch"> work.</span> I enjoy when
-              that happens.<br></br><br></br> These are some the things that <span className="glitch">worked.</span>
+              that happens.<br></br><br></br> These are some of the things that <span className="glitch">worked.</span>
             </p>
           </div>
           <div className="mt-10 w-full h-full">
