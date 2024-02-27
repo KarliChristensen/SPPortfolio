@@ -4,9 +4,9 @@ import linkedinIcon from "/public/icons/linkedinNew.svg";
 import mailIcon from "/public/icons/mailNew.svg";
 import padleClient from "/public/images/padleClient.png";
 import secondServing from "/public/images/SecondServing.png";
+import gogos from "/public/images/Gogos.png";
 
 export default function Home() {
-  
   return (
     <div
       id="main-container"
@@ -18,16 +18,16 @@ export default function Home() {
       >
         <svg
           id="top-left-border-box"
-          className="left-0 top-0 h-1/4 md:h-1/2 w-1/3 absolute border-t-4 border-l-4 md:border-t-8 md:border-l-8 rounded-tl-lg"
+          className="left-0 top-0 h-1/4 md:h-1/2 w-1/3 absolute border-t-4 border-l-4 md:border-t-8 md:border-l-8 rounded-tl-lg border-slate-300"
         ></svg>
         <svg
           id="bottom-right-border-box"
-          className="right-0 bottom-0 h-1/4 md:h-1/2 w-1/3 absolute border-b-4 border-r-4 md:border-b-8 md:border-r-8 rounded-br-lg"
+          className="right-0 bottom-0 h-1/4 md:h-1/2 w-1/3 absolute border-b-4 border-r-4 md:border-b-8 md:border-r-8 rounded-br-lg border-slate-300"
         ></svg>
         <div id="main-contents" className="w-[90%] h-full p-5 mt-16">
           <div className="flex flex-row justify-between">
             <h1 className="glitch text-slate-300 text-3xl ml-0">
-              Digitial Portfolio
+              DIGITAL PORTFOLIO
             </h1>
             <div className="m-0">
               <ul className="flex flex-row">
@@ -77,6 +77,20 @@ export default function Home() {
                   src={secondServing}
                   alt="Stuff"
                 ></Image>
+              </div>
+              <div className="col-span-2 opacity-80 overflow-hidden hover:cursor-pointer hover:opacity-100 transition-all duration-1000 relative">
+                <Image
+                  className="max-h-[200px] rounded-sm object-cover w-full h-full transition-all duration-1000 scale-100"
+                  src={gogos}
+                  alt="Stuff"
+                ></Image>
+              </div>
+              <div className="col-span-1 opacity-80 overflow-hidden hover:cursor-pointer hover:opacity-100 transition-all duration-1000 relative">
+                <div className="max-h-[200px] rounded-sm object-cover w-full h-full transition-all duration-1000 scale-100">
+                  <div className="h-[200px] w-full bg-black flex justify-center items-center">
+                    <h1 className="text-white glitch fixed text-center text-6xl">YOUR PROJECT HERE?</h1>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

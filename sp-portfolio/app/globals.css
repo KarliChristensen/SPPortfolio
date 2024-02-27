@@ -20,7 +20,7 @@ body {
   height: 100%;
   content: "";
   /*  opacity control */
-  opacity: 0.02;
+  opacity: 0.03;
   z-index: 1000;
   pointer-events: none;
   background: url(../public/noise.gif);
