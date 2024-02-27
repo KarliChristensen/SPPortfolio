@@ -1,10 +1,10 @@
 import Image from "next/image";
-import githubIcon from "../public/icons/githubNew.svg";
-import linkedinIcon from "../public/icons/linkedinNew.svg";
-import mailIcon from "../public/icons/mailNew.svg";
-import padleClient from "../public/images/padleClient.png";
-import secondServing from "../public/images/SecondServing.png";
-import gogos from "../public/images/Gogos.png";
+import githubIcon from "../../public/icons/githubNew.svg";
+import linkedinIcon from "../../public/icons/linkedinNew.svg";
+import mailIcon from "../../public/icons/mailNew.svg";
+import padleClient from "../../public/images/padleClient.png";
+import secondServing from "../../public/images/SecondServing.png";
+import gogos from "../../public/images/Gogos.png";
 
 export default function Home() {
   return (
@@ -88,7 +88,9 @@ export default function Home() {
               <div className="col-span-1 opacity-80 overflow-hidden hover:cursor-pointer hover:opacity-100 transition-all duration-1000 relative">
                 <div className="max-h-[200px] rounded-sm object-cover w-full h-full transition-all duration-1000 scale-100">
                   <div className="h-[200px] w-full bg-black flex justify-center items-center">
-                    <h1 className="text-white glitch fixed text-center text-6xl">YOUR PROJECT HERE?</h1>
+                    <h1 className="text-white glitch fixed text-center text-6xl">
+                      YOUR PROJECT HERE?
+                    </h1>
                   </div>
                 </div>
               </div>
