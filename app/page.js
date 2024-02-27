@@ -1,10 +1,10 @@
 import Image from "next/image";
-import githubIcon from "/public/icons/githubNew.svg";
-import linkedinIcon from "/public/icons/linkedinNew.svg";
-import mailIcon from "/public/icons/mailNew.svg";
-import padleClient from "/public/images/padleClient.png";
-import secondServing from "/public/images/SecondServing.png";
-import gogos from "/public/images/Gogos.png";
+import githubIcon from "../public/icons/githubNew.svg";
+import linkedinIcon from "../public/icons/linkedinNew.svg";
+import mailIcon from "../public/icons/mailNew.svg";
+import padleClient from "../public/images/padleClient.png";
+import secondServing from "../public/images/SecondServing.png";
+import gogos from "../public/images/Gogos.png";
 
 export default function Home() {
   return (
