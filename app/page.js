@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <div className="w-[40%]">
             <p className="my-10 text-slate-300 min-w-[400px]">
-              Hellio, my name is Karli Christensen, I'm a front-end developer
+              Hello, my name is Karli Christensen, I am a front-end developer
               from <span className="glitch">Copenhagen, Denmark.</span> I build
               and design things. Occasionally those things <span className="glitch"> work.</span> I enjoy when
               that happens.<br></br><br></br> These are some the things that <span className="glitch">worked.</span>
